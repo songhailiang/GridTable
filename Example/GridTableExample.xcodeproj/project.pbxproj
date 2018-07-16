@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C49BB9E182C14ABF2338E90 /* Pods_GridTableExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E25188C5D333BD5E9A4C84 /* Pods_GridTableExample.framework */; };
+		F1FAD00520FC693800DBF47F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FAD00420FC693800DBF47F /* AppDelegate.swift */; };
+		F1FAD00720FC693800DBF47F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FAD00620FC693800DBF47F /* ViewController.swift */; };
+		F1FAD00A20FC693800DBF47F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FAD00820FC693800DBF47F /* Main.storyboard */; };
+		F1FAD00C20FC693A00DBF47F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1FAD00B20FC693A00DBF47F /* Assets.xcassets */; };
+		F1FAD00F20FC693A00DBF47F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FAD00D20FC693A00DBF47F /* LaunchScreen.storyboard */; };
+		F1FAD01B20FC69F300DBF47F /* GridTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FAD01720FC69F300DBF47F /* GridTableHeaderView.swift */; };
+		F1FAD01C20FC69F300DBF47F /* GridTableColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FAD01820FC69F300DBF47F /* GridTableColumn.swift */; };
+		F1FAD01D20FC69F300DBF47F /* GridTableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FAD01920FC69F300DBF47F /* GridTableRow.swift */; };
+		F1FAD01E20FC69F300DBF47F /* GridTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FAD01A20FC69F300DBF47F /* GridTable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		012839B1DDF3F2680C66E279 /* Pods-GridTableExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridTableExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GridTableExample/Pods-GridTableExample.debug.xcconfig"; sourceTree = "<group>"; };
+		43E25188C5D333BD5E9A4C84 /* Pods_GridTableExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GridTableExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B9E865B755EE1E004BB086E /* Pods-GridTableExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridTableExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-GridTableExample/Pods-GridTableExample.release.xcconfig"; sourceTree = "<group>"; };
+		F1FAD00120FC693800DBF47F /* GridTableExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridTableExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FAD00420FC693800DBF47F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1FAD00620FC693800DBF47F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1FAD00920FC693800DBF47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1FAD00B20FC693A00DBF47F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1FAD00E20FC693A00DBF47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1FAD01020FC693A00DBF47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1FAD01720FC69F300DBF47F /* GridTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridTableHeaderView.swift; sourceTree = "<group>"; };
+		F1FAD01820FC69F300DBF47F /* GridTableColumn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridTableColumn.swift; sourceTree = "<group>"; };
+		F1FAD01920FC69F300DBF47F /* GridTableRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridTableRow.swift; sourceTree = "<group>"; };
+		F1FAD01A20FC69F300DBF47F /* GridTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridTable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1FACFFE20FC693800DBF47F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C49BB9E182C14ABF2338E90 /* Pods_GridTableExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A2E40D6B0FD398EB775A15D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43E25188C5D333BD5E9A4C84 /* Pods_GridTableExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5531944856B397B42A334372 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				012839B1DDF3F2680C66E279 /* Pods-GridTableExample.debug.xcconfig */,
+				7B9E865B755EE1E004BB086E /* Pods-GridTableExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1FACFF820FC693800DBF47F = {
+			isa = PBXGroup;
+			children = (
+				F1FAD00320FC693800DBF47F /* GridTableExample */,
+				F1FAD00220FC693800DBF47F /* Products */,
+				5531944856B397B42A334372 /* Pods */,
+				0A2E40D6B0FD398EB775A15D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1FAD00220FC693800DBF47F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1FAD00120FC693800DBF47F /* GridTableExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1FAD00320FC693800DBF47F /* GridTableExample */ = {
+			isa = PBXGroup;
+			children = (
+				F1FAD01620FC69F300DBF47F /* Sources */,
+				F1FAD00420FC693800DBF47F /* AppDelegate.swift */,
+				F1FAD00620FC693800DBF47F /* ViewController.swift */,
+				F1FAD00820FC693800DBF47F /* Main.storyboard */,
+				F1FAD00B20FC693A00DBF47F /* Assets.xcassets */,
+				F1FAD00D20FC693A00DBF47F /* LaunchScreen.storyboard */,
+				F1FAD01020FC693A00DBF47F /* Info.plist */,
+			);
+			path = GridTableExample;
+			sourceTree = "<group>";
+		};
+		F1FAD01620FC69F300DBF47F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F1FAD01720FC69F300DBF47F /* GridTableHeaderView.swift */,
+				F1FAD01820FC69F300DBF47F /* GridTableColumn.swift */,
+				F1FAD01920FC69F300DBF47F /* GridTableRow.swift */,
+				F1FAD01A20FC69F300DBF47F /* GridTable.swift */,
+			);
+			name = Sources;
+			path = ../../Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1FAD00020FC693800DBF47F /* GridTableExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1FAD01320FC693A00DBF47F /* Build configuration list for PBXNativeTarget "GridTableExample" */;
+			buildPhases = (
+				CEDDDBC4AE4C8BC836AC5D1B /* [CP] Check Pods Manifest.lock */,
+				F1FACFFD20FC693800DBF47F /* Sources */,
+				F1FACFFE20FC693800DBF47F /* Frameworks */,
+				F1FACFFF20FC693800DBF47F /* Resources */,
+				A82915DEC3F3FDADD516B682 /* [CP] Embed Pods Frameworks */,
+				5385D8CFD90144B7E345274A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GridTableExample;
+			productName = GridTableExample;
+			productReference = F1FAD00120FC693800DBF47F /* GridTableExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1FACFF920FC693800DBF47F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = songhailiang;
+				TargetAttributes = {
+					F1FAD00020FC693800DBF47F = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = F1FACFFC20FC693800DBF47F /* Build configuration list for PBXProject "GridTableExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1FACFF820FC693800DBF47F;
+			productRefGroup = F1FAD00220FC693800DBF47F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1FAD00020FC693800DBF47F /* GridTableExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1FACFFF20FC693800DBF47F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FAD00F20FC693A00DBF47F /* LaunchScreen.storyboard in Resources */,
+				F1FAD00C20FC693A00DBF47F /* Assets.xcassets in Resources */,
+				F1FAD00A20FC693800DBF47F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5385D8CFD90144B7E345274A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GridTableExample/Pods-GridTableExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A82915DEC3F3FDADD516B682 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GridTableExample/Pods-GridTableExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GridTableExample/Pods-GridTableExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEDDDBC4AE4C8BC836AC5D1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GridTableExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1FACFFD20FC693800DBF47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FAD01C20FC69F300DBF47F /* GridTableColumn.swift in Sources */,
+				F1FAD00720FC693800DBF47F /* ViewController.swift in Sources */,
+				F1FAD01E20FC69F300DBF47F /* GridTable.swift in Sources */,
+				F1FAD01D20FC69F300DBF47F /* GridTableRow.swift in Sources */,
+				F1FAD01B20FC69F300DBF47F /* GridTableHeaderView.swift in Sources */,
+				F1FAD00520FC693800DBF47F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1FAD00820FC693800DBF47F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1FAD00920FC693800DBF47F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1FAD00D20FC693A00DBF47F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1FAD00E20FC693A00DBF47F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1FAD01120FC693A00DBF47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1FAD01220FC693A00DBF47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1FAD01420FC693A00DBF47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 012839B1DDF3F2680C66E279 /* Pods-GridTableExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GridTableExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GridTableExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1FAD01520FC693A00DBF47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B9E865B755EE1E004BB086E /* Pods-GridTableExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GridTableExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GridTableExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1FACFFC20FC693800DBF47F /* Build configuration list for PBXProject "GridTableExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FAD01120FC693A00DBF47F /* Debug */,
+				F1FAD01220FC693A00DBF47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1FAD01320FC693A00DBF47F /* Build configuration list for PBXNativeTarget "GridTableExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FAD01420FC693A00DBF47F /* Debug */,
+				F1FAD01520FC693A00DBF47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1FACFF920FC693800DBF47F /* Project object */;
+}
