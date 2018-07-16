@@ -71,5 +71,5 @@ extension Team: GridTableRowData {
 
 That's all!
 
-<img src='https://github.com/songhailiang/GridTable/Screenshot.png' width='320' />
+<img src='https://github.com/songhailiang/GridTable/blob/master/Screenshot.png' width='320' />
 
